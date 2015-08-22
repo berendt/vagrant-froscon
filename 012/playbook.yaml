@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - apt: name=vim update_cache=yes state=latest
+      sudo: True

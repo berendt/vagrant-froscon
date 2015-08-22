@@ -1,0 +1,11 @@
+---
+controller:  
+  memory: 8192
+  cpus: 4
+  address: 10.25.25.10
+  box: boxcutter/centos71
+network:  
+  memory: 4096
+  cpus: 2
+  address: 10.25.25.20
+  box: boxcutter/centos71
